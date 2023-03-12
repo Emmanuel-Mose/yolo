@@ -1,4 +1,5 @@
 REASONING FOR OBJECTIVES  IN IP2
+
 Git Work Flow
 
 Forked repository from the provided repo cloned the repository and open it on vscode Run the comand npm install followed by npm start on client and backend uploaded some commits installed mongoDB and started the service
