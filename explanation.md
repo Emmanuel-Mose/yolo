@@ -9,3 +9,4 @@ Image Versioning
 
 backend:1.0 client:1.0
 Image Deployment
+Deployment to Dockerhub - 2 images in total
