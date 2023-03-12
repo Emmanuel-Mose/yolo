@@ -1,10 +1,7 @@
-FROM node:alpine
-LABEL version="1.0"
-WORKDIR /app
-COPY package*.json ./
-RUN npm ci
+FROM node:14.0.0-alpine
+#working directory//
+WORKDIR /backend 
+RUN npm install
 COPY . .
-ENV NODE_ENV=production
-ENV PORT=5000
-EXPOSE 5000
-CMD [ "npm", "run","start" ]
+EXPOSE 5050
+CMD ["npm","start"]
