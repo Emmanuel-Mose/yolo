@@ -4,10 +4,10 @@ services:
   app:
     build:
       context: client
-    image: client:1.0
+    image: emmanumose/my-yolo-app_client
     container_name: client-app
     ports:
-      - '5000:5000'
+      - '4000:4000'
     #env_file:
      # - './.env'
     networks:
@@ -16,10 +16,10 @@ services:
       - mongo
 
   backend:
-    image: backend:1.0
+    image: emmanumose/my-yolo-app_backend
     container_name: backend-app
     ports:
-      - '5000:5000'
+      - '5050:5050'
    # env_file:
       #- '.backend/.env'
     networks:
@@ -32,7 +32,7 @@ services:
     image: mongo
     container_name: mongodb
     ports:
-      - '27018:27017'
+      - '27019:27017'
     environment:
       MONGO_INITDB_ROOT_USERNAME: admin
       MONGO_INITDB_ROOT_PASSWORD: password
