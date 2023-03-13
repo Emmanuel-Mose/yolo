@@ -11,5 +11,5 @@ Image Versioning
 my-yolo-app_backend:latest my-yolo-app_client:latest
 Image Deployment
 Deployment to Dockerhub - 2 images in total
-my-yolo-app_client
-my-yolo-app_backend
+emmanumose/my-yolo-app_client
+emmanumose/my-yolo-app_backend
