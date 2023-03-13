@@ -8,7 +8,7 @@ Image Selection
 created dockerfiles on both client and backend image used was alpine version 14.0.0 used the dockerfiles to create images
 Image Versioning
 
-backend:1.0 client:1.0
+my-yolo-app_backend:latest my-yolo-app_client:latest
 Image Deployment
 Deployment to Dockerhub - 2 images in total
 my-yolo-app_client
