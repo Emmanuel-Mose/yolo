@@ -32,3 +32,15 @@ For this to work, some steps have to be followed
 >>variable declaration 
 >>Pretasks . These are executed before the main tasks i.e installing dependencies and preparing the runtime environment 
 >>roles. These include meta, defaults and tasks. each have a main.yml executable file
+
+####IP4 K8
+
+ Install gcloud and kubectl
+ Open a terminal in the root folder of the project
+ Navigate into the folder that contains the kubernetes manifests: gke-manifests. 
+ Use kubectl apply -f <name-manifest.yaml> to deploy the manifests, from the application folder to services folder.
+
+ In order to implement I created 1 cluster (yolocluster) and one node
+ 2 loadbalancers 
+ 1 service
+ 3 pods
